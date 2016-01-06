@@ -1,4 +1,3 @@
-=begin
 p "please enter your 5 favorite foods"
 
 fave_food = []
@@ -6,10 +5,10 @@ fave_food = []
 5.times do 
 
 	fave_food << gets.chomp
-
 end
 
-fave_food
+p fave_food
+
 count = 0
 
 fave_food.each do |food|
@@ -18,6 +17,7 @@ fave_food.each do |food|
 	count.to_s + ". " + food
 
 
+end
 
 
 count = 0
