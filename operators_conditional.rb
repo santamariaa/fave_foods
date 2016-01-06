@@ -1,4 +1,17 @@
+count  = 0 
 
+11.times do 
+    puts count
+
+    count += 1
+    
+end
+    
+count = 0
+while count <= 10
+    puts count
+    count += 1
+end
 
 sam = 11
 sally = 6

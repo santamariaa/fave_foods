@@ -1,0 +1,1 @@
+puts "Can Sam cook more than 10 recipes?"
